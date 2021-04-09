@@ -1,0 +1,26 @@
+.nav {
+    grid-area: side;
+    background-color: #6a7175;
+}
+
+.nav ul {
+    padding: 0;
+}
+
+.nav ul li {
+    list-style-type: none;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 30px 20px;
+    font-size: 18px;
+    border-bottom: 1px solid #fff;
+    transition: background-color .2s ease;
+}
+.nav ul li a:hover {
+    background-color: rgb(70, 130, 180);
+
+}
