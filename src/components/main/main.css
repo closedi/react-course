@@ -1,9 +1,0 @@
-.main {
-    grid-area: main;
-    background-color: #6a7175;
-}
-.main .background-img {
-    width: 100%;
-    height: 20%;
-    object-fit: cover;
-}

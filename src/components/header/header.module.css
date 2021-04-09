@@ -5,6 +5,10 @@
     animation: rotate 15s infinite linear;
 }
 
+.header .colored {
+    color: black;
+}
+
 @keyframes rotate {
     0% {
         transform: rotate(0deg);

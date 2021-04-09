@@ -1,11 +1,11 @@
 import React from "react";
-import './main.css'
+import styles from './main.module.css'
 import background from '../../background.jpg'
 
 export const Main = () => {
     return (
         <main className="main">
-            <img className="background-img" src={background}></img>
+            <img className={styles.back_img} src={background}></img>
             <div className="info">
                 <div className="avatar"></div>
                 <div className="user-info"></div>

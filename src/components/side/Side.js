@@ -1,10 +1,10 @@
 import React from "react";
-import './side.css'
+import styles from './side.module.css'
 
 export const Side = () => {
 
     return (
-        <nav className="nav">
+        <nav className={styles.nav}>
             <ul>
                 <li><a href="#">Profile</a></li>
                 <li><a href="#">Messages</a></li>
