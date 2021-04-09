@@ -1,16 +1,22 @@
 import React from 'react'
+import {BrowserRouter, Route} from 'react-router-dom'
 import './App.css';
 import {Header} from "./components/header/Header";
 import {Side} from "./components/side/Side";
-import {Main} from "./components/main/Main";
+import {Profile} from "./components/profile/Profile";
+import {Dialogs} from "./components/dialogs/Dialogs";
+
 
 function App() {
  return (
+   <BrowserRouter>
      <div className="container block-shadow">
        <Header />
        <Side />
-       <Main />
+       <Route path={'/dialogs'} component={Dialogs}/>
+       <Route path={'/profile'} component={Profile}/>
      </div>
+   </BrowserRouter>
  )
 }
 

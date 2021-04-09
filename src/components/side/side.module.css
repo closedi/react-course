@@ -18,9 +18,13 @@
     padding: 30px 20px;
     font-size: 18px;
     border-bottom: 1px solid #fff;
-    transition: background-color .2s ease;
+    transition: background-color .1s ease;
 }
 .nav ul li a:hover {
     background-color: rgb(70, 130, 180);
+}
 
+.active{
+  display: block;
+  background-color: rgb(70, 130, 180);
 }

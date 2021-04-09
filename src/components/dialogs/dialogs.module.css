@@ -1,0 +1,16 @@
+.dialogs {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "list current";
+}
+
+.dialogs-list {
+  grid-area: list;
+}
+
+.active-dialog {
+  grid-area: current;
+}

@@ -1,18 +1,16 @@
 import React from "react";
-import styles from './main.module.css'
+import styles from './profile.module.css'
 import background from '../../background.jpg'
+import {Posts} from "./posts/Posts";
 
-export const Main = () => {
+export const Profile = () => {
     return (
         <main className="main">
             <img className={styles.back_img} src={background}></img>
             <div className="info">
                 <div className="avatar"></div>
                 <div className="user-info"></div>
-            </div>
-            <div className="posts">
-                <input type="text" placeholder="your news..." id="posts-input"/>
-                <button type="submit" className="btn btn-submit">Send</button>
+            <Posts/>
             </div>
         </main>
     )
