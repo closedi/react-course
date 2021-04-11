@@ -4,8 +4,8 @@ export const Dialogs = () => {
 
   return (
     <section className={styles.dialogs}>
-      <div className={styles.dialogsList}></div>
-      <div className={styles.activeDialog}></div>
+      <div className={styles.dialogs_list}>123</div>
+      <div className={styles.active_dialog}></div>
     </section>
   )
 }

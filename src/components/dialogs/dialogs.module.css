@@ -5,12 +5,14 @@
   grid-template-rows: 1fr;
   grid-template-areas:
     "list current";
+  background-color: rgba(23, 99, 138, 0.6);
 }
 
-.dialogs-list {
+.dialogs_list {
   grid-area: list;
+  border-right: 1px solid #fff;
 }
 
-.active-dialog {
+.active_dialog {
   grid-area: current;
 }
