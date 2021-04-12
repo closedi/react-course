@@ -1,0 +1,18 @@
+.dialogs {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "list current";
+  background-color: rgba(23, 99, 138, 0.6);
+}
+
+.dialogs_list {
+  grid-area: list;
+  border-right: 1px solid #fff;
+}
+
+.active_dialog {
+  grid-area: current;
+}
